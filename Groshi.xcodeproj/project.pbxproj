@@ -7,16 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		333200D82A0538ED00DB653D /* CategoryTransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333200D72A0538ED00DB653D /* CategoryTransactionModel.swift */; };
+		333200DA2A054D4500DB653D /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333200D92A054D4500DB653D /* CalendarViewController.swift */; };
+		333200DC2A0552D800DB653D /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333200DB2A0552D800DB653D /* CalendarView.swift */; };
+		333200DE2A092CA700DB653D /* TransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333200DD2A092CA700DB653D /* TransactionTableViewCell.swift */; };
 		335BE74329FC10DD00BC953C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335BE74229FC10DD00BC953C /* AppDelegate.swift */; };
 		335BE74529FC10DD00BC953C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335BE74429FC10DD00BC953C /* SceneDelegate.swift */; };
-		335BE74729FC10DD00BC953C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335BE74629FC10DD00BC953C /* ViewController.swift */; };
-		335BE74A29FC10DD00BC953C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 335BE74829FC10DD00BC953C /* Main.storyboard */; };
 		335BE74D29FC10DD00BC953C /* Groshi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 335BE74B29FC10DD00BC953C /* Groshi.xcdatamodeld */; };
 		335BE74F29FC10DF00BC953C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 335BE74E29FC10DF00BC953C /* Assets.xcassets */; };
-		335BE75229FC10DF00BC953C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 335BE75029FC10DF00BC953C /* LaunchScreen.storyboard */; };
 		335BE75D29FC10DF00BC953C /* GroshiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335BE75C29FC10DF00BC953C /* GroshiTests.swift */; };
 		335BE76729FC10DF00BC953C /* GroshiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335BE76629FC10DF00BC953C /* GroshiUITests.swift */; };
 		335BE76929FC10DF00BC953C /* GroshiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335BE76829FC10DF00BC953C /* GroshiUITestsLaunchTests.swift */; };
+		33AC007C2A2F80360023B3DB /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AC007B2A2F80360023B3DB /* SettingsViewController.swift */; };
+		33AC007E2A2F805E0023B3DB /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AC007D2A2F805E0023B3DB /* SettingsView.swift */; };
+		33BD3D012A02AEE5007F2374 /* TransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BD3D002A02AEE5007F2374 /* TransactionViewController.swift */; };
+		33BD3D032A02AF0C007F2374 /* TransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BD3D022A02AF0C007F2374 /* TransactionView.swift */; };
+		33E0CB9029FFEA9F00F507D6 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E0CB8F29FFEA9F00F507D6 /* MainView.swift */; };
+		33E0CB9229FFEB0100F507D6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E0CB9129FFEB0100F507D6 /* MainViewController.swift */; };
+		33E499A62A026EF8003EC91F /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E499A52A026EF8003EC91F /* TransactionModel.swift */; };
+		33FD218B2A3C930B00A8D23A /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FD218A2A3C930B00A8D23A /* LaunchScreenViewController.swift */; };
+		33FD218D2A3C95FF00A8D23A /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FD218C2A3C95FF00A8D23A /* LaunchView.swift */; };
+		AD4268BD14BE7893B27305F8 /* Pods_Groshi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2E1CFC88F4C63A2218C1EE /* Pods_Groshi.framework */; };
+		CC46729D5C969A143CC4D8D1 /* Pods_GroshiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3BDF51AE50A400E640EDF37 /* Pods_GroshiTests.framework */; };
+		F6971923ADAAB4906AB7E867 /* Pods_Groshi_GroshiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8027B94DBA9FE3A273A9B59 /* Pods_Groshi_GroshiUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,20 +50,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04A62E3CF6D25A6B87259BA9 /* Pods-Groshi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Groshi.debug.xcconfig"; path = "Target Support Files/Pods-Groshi/Pods-Groshi.debug.xcconfig"; sourceTree = "<group>"; };
+		098F73ABB0FE1353C76459FE /* Pods-Groshi-GroshiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Groshi-GroshiUITests.release.xcconfig"; path = "Target Support Files/Pods-Groshi-GroshiUITests/Pods-Groshi-GroshiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		333200D72A0538ED00DB653D /* CategoryTransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTransactionModel.swift; sourceTree = "<group>"; };
+		333200D92A054D4500DB653D /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		333200DB2A0552D800DB653D /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		333200DD2A092CA700DB653D /* TransactionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionTableViewCell.swift; sourceTree = "<group>"; };
 		335BE73F29FC10DD00BC953C /* Groshi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Groshi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		335BE74229FC10DD00BC953C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		335BE74429FC10DD00BC953C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		335BE74629FC10DD00BC953C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		335BE74929FC10DD00BC953C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		335BE74C29FC10DD00BC953C /* Groshi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Groshi.xcdatamodel; sourceTree = "<group>"; };
 		335BE74E29FC10DF00BC953C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		335BE75129FC10DF00BC953C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		335BE75329FC10DF00BC953C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		335BE75829FC10DF00BC953C /* GroshiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroshiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		335BE75C29FC10DF00BC953C /* GroshiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroshiTests.swift; sourceTree = "<group>"; };
 		335BE76229FC10DF00BC953C /* GroshiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroshiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		335BE76629FC10DF00BC953C /* GroshiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroshiUITests.swift; sourceTree = "<group>"; };
 		335BE76829FC10DF00BC953C /* GroshiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroshiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		33AC007B2A2F80360023B3DB /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		33AC007D2A2F805E0023B3DB /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		33BD3D002A02AEE5007F2374 /* TransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewController.swift; sourceTree = "<group>"; };
+		33BD3D022A02AF0C007F2374 /* TransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionView.swift; sourceTree = "<group>"; };
+		33E0CB8F29FFEA9F00F507D6 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		33E0CB9129FFEB0100F507D6 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		33E499A52A026EF8003EC91F /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
+		33FD218A2A3C930B00A8D23A /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
+		33FD218C2A3C95FF00A8D23A /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
+		749A5E9D61F7058A0E2238DF /* Pods-Groshi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Groshi.release.xcconfig"; path = "Target Support Files/Pods-Groshi/Pods-Groshi.release.xcconfig"; sourceTree = "<group>"; };
+		92046EE8C3C75751F88756D3 /* Pods-GroshiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroshiTests.release.xcconfig"; path = "Target Support Files/Pods-GroshiTests/Pods-GroshiTests.release.xcconfig"; sourceTree = "<group>"; };
+		9F2E1CFC88F4C63A2218C1EE /* Pods_Groshi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Groshi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8027B94DBA9FE3A273A9B59 /* Pods_Groshi_GroshiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Groshi_GroshiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3BDF51AE50A400E640EDF37 /* Pods_GroshiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GroshiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F67911F915FC5886764DE7F0 /* Pods-GroshiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroshiTests.debug.xcconfig"; path = "Target Support Files/Pods-GroshiTests/Pods-GroshiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FAF72422CBE795161CDB9168 /* Pods-Groshi-GroshiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Groshi-GroshiUITests.debug.xcconfig"; path = "Target Support Files/Pods-Groshi-GroshiUITests/Pods-Groshi-GroshiUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD4268BD14BE7893B27305F8 /* Pods_Groshi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC46729D5C969A143CC4D8D1 /* Pods_GroshiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6971923ADAAB4906AB7E867 /* Pods_Groshi_GroshiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +120,8 @@
 				335BE75B29FC10DF00BC953C /* GroshiTests */,
 				335BE76529FC10DF00BC953C /* GroshiUITests */,
 				335BE74029FC10DD00BC953C /* Products */,
+				62771C1BDEA79EEF20D36F38 /* Pods */,
+				B4F1EEB4FB5E95FF83863885 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,12 +140,12 @@
 			children = (
 				335BE74229FC10DD00BC953C /* AppDelegate.swift */,
 				335BE74429FC10DD00BC953C /* SceneDelegate.swift */,
-				335BE74629FC10DD00BC953C /* ViewController.swift */,
-				335BE74829FC10DD00BC953C /* Main.storyboard */,
-				335BE74E29FC10DF00BC953C /* Assets.xcassets */,
-				335BE75029FC10DF00BC953C /* LaunchScreen.storyboard */,
+				33E0CB8D29FFE98F00F507D6 /* Controllers */,
+				33E0CB8C29FFE98700F507D6 /* Views */,
+				33E0CB8B29FFE97400F507D6 /* Models */,
 				335BE75329FC10DF00BC953C /* Info.plist */,
 				335BE74B29FC10DD00BC953C /* Groshi.xcdatamodeld */,
+				33E0CB8E29FFE9B600F507D6 /* Resources */,
 			);
 			path = Groshi;
 			sourceTree = "<group>";
@@ -130,6 +167,71 @@
 			path = GroshiUITests;
 			sourceTree = "<group>";
 		};
+		33E0CB8B29FFE97400F507D6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				33E499A52A026EF8003EC91F /* TransactionModel.swift */,
+				333200D72A0538ED00DB653D /* CategoryTransactionModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		33E0CB8C29FFE98700F507D6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				33E0CB8F29FFEA9F00F507D6 /* MainView.swift */,
+				33BD3D022A02AF0C007F2374 /* TransactionView.swift */,
+				333200DB2A0552D800DB653D /* CalendarView.swift */,
+				333200DD2A092CA700DB653D /* TransactionTableViewCell.swift */,
+				33AC007D2A2F805E0023B3DB /* SettingsView.swift */,
+				33FD218C2A3C95FF00A8D23A /* LaunchView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		33E0CB8D29FFE98F00F507D6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				33E0CB9129FFEB0100F507D6 /* MainViewController.swift */,
+				33BD3D002A02AEE5007F2374 /* TransactionViewController.swift */,
+				333200D92A054D4500DB653D /* CalendarViewController.swift */,
+				33AC007B2A2F80360023B3DB /* SettingsViewController.swift */,
+				33FD218A2A3C930B00A8D23A /* LaunchScreenViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		33E0CB8E29FFE9B600F507D6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				335BE74E29FC10DF00BC953C /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		62771C1BDEA79EEF20D36F38 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04A62E3CF6D25A6B87259BA9 /* Pods-Groshi.debug.xcconfig */,
+				749A5E9D61F7058A0E2238DF /* Pods-Groshi.release.xcconfig */,
+				FAF72422CBE795161CDB9168 /* Pods-Groshi-GroshiUITests.debug.xcconfig */,
+				098F73ABB0FE1353C76459FE /* Pods-Groshi-GroshiUITests.release.xcconfig */,
+				F67911F915FC5886764DE7F0 /* Pods-GroshiTests.debug.xcconfig */,
+				92046EE8C3C75751F88756D3 /* Pods-GroshiTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B4F1EEB4FB5E95FF83863885 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F2E1CFC88F4C63A2218C1EE /* Pods_Groshi.framework */,
+				A8027B94DBA9FE3A273A9B59 /* Pods_Groshi_GroshiUITests.framework */,
+				E3BDF51AE50A400E640EDF37 /* Pods_GroshiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +239,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 335BE76C29FC10DF00BC953C /* Build configuration list for PBXNativeTarget "Groshi" */;
 			buildPhases = (
+				870E6B009D04249D2B6C4CC3 /* [CP] Check Pods Manifest.lock */,
+				33EA399729FFD7B50060DDC7 /* ShellScript */,
 				335BE73B29FC10DD00BC953C /* Sources */,
 				335BE73C29FC10DD00BC953C /* Frameworks */,
 				335BE73D29FC10DD00BC953C /* Resources */,
+				6476F071E2A90389874FCA06 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +259,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 335BE76F29FC10DF00BC953C /* Build configuration list for PBXNativeTarget "GroshiTests" */;
 			buildPhases = (
+				72D354446619CE31BA004632 /* [CP] Check Pods Manifest.lock */,
 				335BE75429FC10DF00BC953C /* Sources */,
 				335BE75529FC10DF00BC953C /* Frameworks */,
 				335BE75629FC10DF00BC953C /* Resources */,
@@ -172,9 +278,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 335BE77229FC10DF00BC953C /* Build configuration list for PBXNativeTarget "GroshiUITests" */;
 			buildPhases = (
+				BD40DCD21C7909A5FF3D5F1A /* [CP] Check Pods Manifest.lock */,
 				335BE75E29FC10DF00BC953C /* Sources */,
 				335BE75F29FC10DF00BC953C /* Frameworks */,
 				335BE76029FC10DF00BC953C /* Resources */,
+				0B4B60CDDCAF70750DB01479 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,9 +342,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				335BE75229FC10DF00BC953C /* LaunchScreen.storyboard in Resources */,
 				335BE74F29FC10DF00BC953C /* Assets.xcassets in Resources */,
-				335BE74A29FC10DD00BC953C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,15 +362,148 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B4B60CDDCAF70750DB01479 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Groshi-GroshiUITests/Pods-Groshi-GroshiUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Groshi-GroshiUITests/Pods-Groshi-GroshiUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Groshi-GroshiUITests/Pods-Groshi-GroshiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33EA399729FFD7B50060DDC7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+		6476F071E2A90389874FCA06 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Groshi/Pods-Groshi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Groshi/Pods-Groshi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Groshi/Pods-Groshi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72D354446619CE31BA004632 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GroshiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		870E6B009D04249D2B6C4CC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Groshi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD40DCD21C7909A5FF3D5F1A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Groshi-GroshiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		335BE73B29FC10DD00BC953C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				335BE74729FC10DD00BC953C /* ViewController.swift in Sources */,
+				333200DA2A054D4500DB653D /* CalendarViewController.swift in Sources */,
+				33FD218D2A3C95FF00A8D23A /* LaunchView.swift in Sources */,
+				33E499A62A026EF8003EC91F /* TransactionModel.swift in Sources */,
+				33BD3D032A02AF0C007F2374 /* TransactionView.swift in Sources */,
+				333200D82A0538ED00DB653D /* CategoryTransactionModel.swift in Sources */,
+				33BD3D012A02AEE5007F2374 /* TransactionViewController.swift in Sources */,
 				335BE74329FC10DD00BC953C /* AppDelegate.swift in Sources */,
+				333200DC2A0552D800DB653D /* CalendarView.swift in Sources */,
+				33AC007E2A2F805E0023B3DB /* SettingsView.swift in Sources */,
 				335BE74529FC10DD00BC953C /* SceneDelegate.swift in Sources */,
+				33E0CB9029FFEA9F00F507D6 /* MainView.swift in Sources */,
 				335BE74D29FC10DD00BC953C /* Groshi.xcdatamodeld in Sources */,
+				33AC007C2A2F80360023B3DB /* SettingsViewController.swift in Sources */,
+				333200DE2A092CA700DB653D /* TransactionTableViewCell.swift in Sources */,
+				33FD218B2A3C930B00A8D23A /* LaunchScreenViewController.swift in Sources */,
+				33E0CB9229FFEB0100F507D6 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,25 +538,6 @@
 			targetProxy = 335BE76329FC10DF00BC953C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		335BE74829FC10DD00BC953C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				335BE74929FC10DD00BC953C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		335BE75029FC10DF00BC953C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				335BE75129FC10DF00BC953C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		335BE76A29FC10DF00BC953C /* Debug */ = {
@@ -436,18 +656,19 @@
 		};
 		335BE76D29FC10DF00BC953C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04A62E3CF6D25A6B87259BA9 /* Pods-Groshi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Groshi/Groshi.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74UYAAZJ3Y;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Groshi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = f;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -463,18 +684,19 @@
 		};
 		335BE76E29FC10DF00BC953C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 749A5E9D61F7058A0E2238DF /* Pods-Groshi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Groshi/Groshi.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74UYAAZJ3Y;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Groshi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = f;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -490,6 +712,7 @@
 		};
 		335BE77029FC10DF00BC953C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F67911F915FC5886764DE7F0 /* Pods-GroshiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -509,6 +732,7 @@
 		};
 		335BE77129FC10DF00BC953C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92046EE8C3C75751F88756D3 /* Pods-GroshiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +752,7 @@
 		};
 		335BE77329FC10DF00BC953C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAF72422CBE795161CDB9168 /* Pods-Groshi-GroshiUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -545,6 +770,7 @@
 		};
 		335BE77429FC10DF00BC953C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 098F73ABB0FE1353C76459FE /* Pods-Groshi-GroshiUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
