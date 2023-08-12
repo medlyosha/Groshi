@@ -12,7 +12,7 @@ Hey there, welcome to Groshi - a simple financial tracker app! With Groshi, you 
 
 - **Time Traveler**: Ever wondered how much you spent last week or month? Or the total damage for the year? Our cool time-traveling segment control lets you switch between day, week, month, and year views.
 
-- **Expenses on a Diet**: We've got those animated horizontal bar charts to help you visualize where your hard-earned money is going. Swipe left and right to reveal all those spending secrets!
+- **Expenses on a Diet**: We've got those animated horizontal bar charts to help you visualize where your hard-earned money is going. Swipe up and down to reveal all those spending secrets!
 
 ## Technologies Used
 
@@ -29,7 +29,8 @@ Hey there, welcome to Groshi - a simple financial tracker app! With Groshi, you 
 - **Charts**
 
 ## Screenshots
-<img src=["screenshots/home_screen.png"](https://github.com/medlyosha/Groshi/blob/main/Screenshots/Home%20Screen.png) width="375" alt=Home Screen>
+
+<img src=Screenshots/Home%20Screen.png width="375" alt="Home Screen">
 
 ## How to Get Started
 
