@@ -32,24 +32,31 @@ Hey there, welcome to Groshi - a simple financial tracker app! With Groshi, you 
 
 ## Screenshots
 *Home Screen*
+
 <img src=Screenshots/Home%20Screen.png width="375">
 
 *Choose transactions screen*
+
 <img src=Screenshots/Choose%20transactions%20Screen.png width="375">
 
 *Input transaction screen*
+
 <img src=Screenshots/Input%20transaction%20screen.png width="375">
 
 *Date picker screen*
+
 <img src=Screenshots/Date%20Picker%20Screen.png width="375" >
 
 *Select category screen*
+
 <img src=Screenshots/Category%20Screen.png width="375" >
 
 *Create new category screen*
+
 <img src=Screenshots/Create%20new%20category%20screen.png width="375">
 
 *Settings screen*
+
 <img src=Screenshots/Settings%20Screen.png width="375">
 
 
