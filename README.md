@@ -1,5 +1,7 @@
 # Groshi - Keep Tabs on Your Money!
 
+![Groshi Layout](https://github.com/medlyosha/Groshi/blob/main/Screenshots/Groshi%20layout.png)
+
 Hey there, welcome to Groshi - a simple financial tracker app! With Groshi, you can easily stay on top of your finances, whether it's tracking your income, managing expenses, or just getting a clearer picture of where your money goes.
 
 ## What's Inside?
